@@ -75,7 +75,7 @@ export default function LandingPage() {
               <div className="absolute top-4 left-1/2 -translate-x-1/2 w-32 h-4 bg-slate-800 rounded-full z-20" />
               <div className="w-full h-full bg-slate-950 rounded-[32px] p-4 flex flex-col justify-between border border-slate-800/50">
                 <div className="w-full h-40 bg-slate-900 rounded-2xl flex items-center justify-center border border-slate-800">
-                  <span className="text-4xl animate-bounce">🥗</span>
+                  <span className="text-4xl">🥗</span>
                 </div>
                 <div className="bg-slate-900 border border-slate-800 p-4 rounded-xl space-y-2 mt-4 shadow-lg">
                   <div className="flex justify-between items-center text-[11px] font-semibold text-emerald-400">
@@ -134,7 +134,7 @@ export default function LandingPage() {
               </div>
               <h3 className="text-lg font-bold mb-2 text-slate-100">Voice Logging</h3>
               <p className="text-xs text-slate-400 leading-relaxed">
-                Too busy to snap? Just say "Coffee with sugar and an omelette." Our smart voice coach logs it instantly.
+                Too busy to snap? Just say &quot;Coffee with sugar and an omelette.&quot; Our smart voice coach logs it instantly.
               </p>
             </div>
 
