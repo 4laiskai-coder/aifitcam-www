@@ -39,9 +39,7 @@ export default function LandingPage() {
             <span className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full text-sm md:text-base font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mb-6">
               ✨ Experience the Future of Fitness Tracking
             </span>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-6 bg-gradient-to-b from-white via-slate-100 to-slate-400 bg-clip-text text-transparent leading-tight">
-              The Zero-Typing <br/>AI Health & Fitness Coach
-            </h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-b from-white to-slate-200 bg-clip-text text-transparent leading-tight tracking-tight">The Zero-Typing <br/>AI Health & Fitness Coach</h1>
             <p className="text-lg text-slate-400 mb-10 leading-relaxed max-w-xl">
               No more manual logging. Just snap, speak, or sync your smartwatch. Let advanced AI handle your calories, nutrition, and workouts effortlessly.
             </p>
