@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 
 export default function LandingPage() {
@@ -69,39 +71,35 @@ export default function LandingPage() {
 
           {/* App UI Mockup Simulator */}
           <div className="justify-center hidden md:flex">
-            <div className="w-[300px] h-[600px] bg-slate-900 border-4 border-slate-800 rounded-[40px] p-3 shadow-2xl relative overflow-hidden group">
+            <div className="w-[300px] h-[550px] bg-slate-900 border-4 border-slate-800 rounded-[40px] p-3 shadow-2xl relative overflow-hidden">
               <div className="absolute top-4 left-1/2 -translate-x-1/2 w-32 h-4 bg-slate-800 rounded-full z-20" />
-              {/* Mock App Content */}
-              <div className="w-full h-full bg-slate-950 rounded-[32px] p-4 flex flex-col justify-between relative overflow-hidden">
-                {/* Scanning Animation Header */}
-                <div className="relative w-full h-48 bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 flex items-center justify-center">
-                  <div className="absolute inset-0 bg-gradient-to-b from-transparent via-emerald-500/10 to-transparent w-full h-1/2 animate-pulse top-1/4 border-y border-emerald-500/40 z-10" />
-                  <span className="text-4xl">🥗</span>
+              <div className="w-full h-full bg-slate-950 rounded-[32px] p-4 flex flex-col justify-between border border-slate-800/50">
+                <div className="w-full h-40 bg-slate-900 rounded-2xl flex items-center justify-center border border-slate-800">
+                  <span className="text-4xl animate-bounce">🥗</span>
                 </div>
-                {/* AI HUD Overlay */}
-                <div className="bg-slate-900/90 border border-slate-800 p-4 rounded-xl space-y-2 mt-4 backdrop-blur-sm shadow-lg">
-                  <div className="flex justify-between items-center text-xs font-semibold text-emerald-400">
-                    <span>✨ AI Analyzing...</span>
-                    <span>Meal Identified</span>
+                <div className="bg-slate-900 border border-slate-800 p-4 rounded-xl space-y-2 mt-4 shadow-lg">
+                  <div className="flex justify-between items-center text-[11px] font-semibold text-emerald-400">
+                    <span>✨ AI Active Scan</span>
+                    <span>Identified</span>
                   </div>
-                  <p className="text-sm font-bold text-white">Avocado Salmon Salad</p>
-                  <div className="grid grid-cols-3 gap-2 text-center pt-2 border-t border-slate-800">
+                  <p className="text-xs font-bold text-white">Avocado Salmon Salad</p>
+                  <div className="grid grid-cols-3 gap-1 text-center pt-2 border-t border-slate-800 text-[10px]">
                     <div className="bg-slate-950 p-1 rounded">
-                      <p className="text-[10px] text-slate-500">Calories</p>
-                      <p className="text-xs font-bold text-slate-200">420 kcal</p>
+                      <p className="text-slate-500">Kcal</p>
+                      <p className="font-bold text-slate-200">420</p>
                     </div>
                     <div className="bg-slate-950 p-1 rounded">
-                      <p className="text-[10px] text-slate-500">Protein</p>
-                      <p className="text-xs font-bold text-emerald-400">32g</p>
+                      <p className="text-slate-500">Protein</p>
+                      <p className="font-bold text-emerald-400">32g</p>
                     </div>
                     <div className="bg-slate-950 p-1 rounded">
-                      <p className="text-[10px] text-slate-500">Carbs</p>
-                      <p className="text-xs font-bold text-cyan-400">12g</p>
+                      <p className="text-slate-500">Carbs</p>
+                      <p className="font-bold text-cyan-400">12g</p>
                     </div>
                   </div>
                 </div>
-                <div className="w-full h-8 bg-slate-900 rounded-full flex items-center justify-center text-[10px] font-bold text-slate-400 border border-slate-800 mt-4">
-                  🎙️ Tap to speak or scan label
+                <div className="w-full py-2 bg-slate-900 rounded-full flex items-center justify-center text-[9px] font-bold text-slate-400 border border-slate-800 mt-4">
+                  🎙️ Tap to speak or scan scale
                 </div>
               </div>
             </div>
@@ -120,7 +118,6 @@ export default function LandingPage() {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {/* Card 1 */}
             <div className="bg-slate-900/40 border border-slate-800/80 p-6 rounded-2xl hover:border-emerald-500/20 transition-all group">
               <div className="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 text-xl mb-6 group-hover:scale-110 transition-transform">
                 📸
@@ -131,10 +128,16 @@ export default function LandingPage() {
               </p>
             </div>
 
-            {/* Card 2 */}
             <div className="bg-slate-900/40 border border-slate-800/80 p-6 rounded-2xl hover:border-cyan-500/20 transition-all group">
               <div className="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 text-xl mb-6 group-hover:scale-110 transition-transform">
                 🎙️
               </div>
               <h3 className="text-lg font-bold mb-2 text-slate-100">Voice Logging</h3>
               <p className="text-xs text-slate-400 leading-relaxed">
+                Too busy to snap? Just say "Coffee with sugar and an omelette." Our smart voice coach logs it instantly.
+              </p>
+            </div>
+
+            <div className="bg-slate-900/40 border border-slate-800/80 p-6 rounded-2xl hover:border-purple-500/20 transition-all group">
+              <div className="w-12 h-12 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400 text-xl mb-6 group-hover:scale-110 transition-transform">
+                ⚖️
