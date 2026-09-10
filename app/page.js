@@ -9,7 +9,7 @@ export default function LandingPage() {
       {/* 1. NAVIGATION */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-900">
         <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-2 font-bold text-xl tracking-tight bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">
+          <div className="flex items-center gap-2 font-bold text-2xl md:text-3xl tracking-tight bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">
             <span>AiFitCam</span>
           </div>
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
