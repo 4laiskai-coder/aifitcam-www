@@ -1,8 +1,9 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "AiFitCam - Smart AI Workout Assistant & Rep Counter",
-  description: "Track your workouts automatically with AiFitCam. Real-time AI exercise form correction, automatic rep counting, and 100% on-device privacy.",
+  title: "AiFitCam - Zero-Typing AI Health & Fitness Coach",
+  description: "Transform your health journey with AiFitCam. Instantly log meals via photo or voice, scan weight scales, and sync your smartwatch effortlessly. Your ultimate AI nutrition coach.",
+  keywords: ["AI fitness coach", "calorie tracker", "voice logging nutrition", "smart fridge app", "photo food tracker"],
 };
 
 export default function RootLayout({ children }) {
